@@ -1,0 +1,119 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #F6F6F6;
+  font-family: "Montserrat-Black";
+}
+
+a {
+  color: #2A0944;
+  background-color: transparent;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/*                       NavBAR                  */
+.navbar {
+  height: 2%;
+}
+
+.title {
+  font-size: 2.0rem;
+  line-height: 1;
+  margin-right: 42%;
+  padding-top: 1%;
+}
+
+.navtxt {
+  color: white;
+  font-size: 1.2rem;
+}
+
+#mainSection {
+  padding: 1% 5%;
+  text-align: center;
+}
+
+/*         left       */
+.myname {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.leftM {
+  margin-right: 2px;
+  border-radius: 1%;
+  font-size: 1.2rem;
+}
+
+.leftM li {
+  color: #6a6f73;
+  font-weight: 1000;
+  display: block !important;
+  margin-left: 2px !important;
+}
+
+.leftM li.on a, .leftM li:hover a {
+  color: #fff;
+  background: #6a6f73 !important;
+  border-color: #6a6f73;
+}
+
+.profilepic {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.unstyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+.tagged {
+  text-align: center;
+  margin-top: 1%;
+}
+
+/*       Right Details part      */
+.formright {
+  padding: 2% 0% 0% 5%;
+}
+
+.bioBox {
+  width: 91%;
+}
+
+.btnSubmit {
+  margin-bottom: 3px;
+  width: auto;
+}
+
+/*               Footer                         */
+.footer {
+  background-color: #212121;
+  color: white;
+  height: 150px;
+margin-top: -100px;
+}
+
+.socialicon {
+  color: white;
+}
+
+.fcant {
+  margin-top: 10%
+}
+
+.colms {
+  padding-top: 5%;
+  padding-left: 5%;
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JobLite</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styleHome.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/2fe957610f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- TITTLE ---------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand title" id= "title" href="index.html">JobLite</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="OnlineCourses.html">Online Course</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item " href="#demoLogin">Demo Login</a></li>
+              <li><a class="dropdown-item " href="#Testimonials">Testimonials</a></li>
+              <li><a class="dropdown-item " href="#MyTeam">Team</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="help.html">Help</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" action="index.html" method="get">
+          <input  id = search-input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id = search-button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+      <li class="nav-item">
+        <a href="profile.html">
+          <img src="https://i.stack.imgur.com/YQu5k.png" class="hyperImage" alt="HTML tutorial">
+        </a>
+      </li>
+    </div>
+  </nav>
+
+
+
+
+  <!--     demo login         -->
+  <section id="demoLogin">
+    <div class="row demo">
+      <div class="col-lg-6 col-sm-12">
+        <iframe width="600" height="300" src="https://www.youtube.com/embed/NAIQyoPcjNM" class="YouTubeVideo" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white" style="
+          background-image: url('images/bulb.jpg');
+        ">
+        <br>
+        <p class="quote2">“To Have a High IQ,<br>You Need To Specialize,<br> Think Deep Thought <br> You Avoid Triva.”</p>
+        <br>
+      </div>-->
+      </div>
+      <div class="col-lg-6 col-sm-12 rightone">
+        <br>
+        <hr>
+        <h2 class="regiterdemo">SignUp for Demo</h2>
+
+        <hr>
+<br>
+      <form>
+        <div class="row">
+          <div class="col-lg-2 rows">
+            <label for="colFormLabel" class="col-sm-2 col-form-label">Name:</label>
+          </div>
+          <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="First Name" required>
+          </div>
+          <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+        <br>
+        <div class="row mb-3">
+          <label for="colFormLabel" class="col-sm-2 col-form-label demoTxt" required>Phone No :</label>
+          <div class="col-sm-10">
+      <input type="text" pattern="[6789][0-9]{9}" class="pnblock form-control" title="Please enter valid phone number">
+              </div>
+        </div>
+        <button class="btn btn-dark btnsignup" onclick="fun()" type="submit">Register</button>
+
+        </form>
+      </div>
+    </div>
+      </form>
+    </div>
+    <hr>
+  </section>
+  <!-- ___________________________________ -->
+
+
+  <!--   quote1 ------------------------>
+  <section id="quotesPic">
+    <div class="bg-image p-5 text-center shadow-1-strong rounded  text-white topQuote" style="
+        background-image: url('https://images.wallpapersden.com/image/wxl-chess-game_75571.jpg');
+      ">
+      <p class="quote1">“The chessboard is the world, the pieces are the phenomena of the Universe, <br> the rules of the game are what we call the laws of Nature
+        and the player on the other side is hidden from us”</p>
+      <p>~ Wilhelm Steinitz</p>
+    </div>
+  </section>
+  <!--                Advantages             -->
+
+
+  <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row ft1">
+          <div class="box col-lg-4 col-sm-12">
+            <i class="ico fas fa-check-circle fa-3x"></i>
+            <h4>Increases The IQ</h4>
+          </div>
+          <div class="box col-lg-4 col-sm-12">
+            <i class="ico fas fa-bullseye fa-3x"></i>
+            <h4>Develops Intense Problem-Solving Skills</h4>
+          </div>
+          <div class="box col-lg-4 col-sm-12">
+            <i class="ico fas fa-heart fa-3x"></i>
+            <h4>Boosts Creativity</h4>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row ft1">
+          <div class="box col-lg-4 col-sm-12">
+            <i class="ico fas fa-check-circle fa-3x"></i>
+            <h4>Improves Thinking</h4>
+          </div>
+          <div class="box col-lg-4 col-sm-12">
+            <i class="ico fas fa-bullseye fa-3x"></i>
+            <h4>Teaches You The Importance of Planning</h4>
+          </div>
+          <div class="box col-lg-4 col-sm-12">
+            <i class="ico fas fa-heart fa-3x"></i>
+            <h4>Improves memory</h4>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev cntrl" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next cntrl" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--            Testimonials               -->
+    <hr>
+    <div id="Testimonials">
+      <div class="row">
+        <div class="col-lg-4 testi">
+          <img src="images/Testimonials/1.jpg" alt="">
+          <h3>Sachin Tendulkar</h3>
+          <h4>(God)</h4>
+
+          <p class="texti">Sachin Ramesh Tendulkar is a former international cricketer of India who served as captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket. </p>
+          <hr class="hr2">
+        </div>
+        <div class="col-lg-4 testi">
+          <img src="images/Testimonials/5th.jpg" alt="">
+          <h3>Smriti Mandhana</h3>
+          <h4>(Bestman)</h4>
+          <p class="texti">Smriti Shriniwas Mandhana is an Indian cricketer who plays for the Indian women's national team. In June 2018, the Board of Control for Cricket in India named her as the Best Women's International Cricketer.</p>
+          <hr class="hr2">
+        </div>
+
+        <div class="col-lg-4 testi">
+          <img src="images/Testimonials/4.jpg" alt="">
+          <h3>Mahendra Singh Dhoni</h3>
+          <h4>(Cool)</h4>
+          <p class="texti">Honorary Lieutenant Colonel Mahendra Singh Dhoni, is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. MS Dhoni
+            is the only captain in the history of cricket to win all ICC trophies.</p>
+          <hr class="hr2">
+        </div>
+      </div>
+      <h2 class="textiname">Testimonials</h2>
+    </div>
+
+    <!--                      Team intro  -->
+    <div id="MyTeam">
+      <div class="row">
+        <h1 class="OurTeam">Our Team</h1>
+        <div class="col-lg-6 col-sm-12  testi teamin">
+          <img src="images/Testimonials/B.jpg" alt="">
+          <h3>Viswanathan Anand</h3>
+          <h4>(Indian chess Grandmaster)</h4>
+          <p class="team_intro">Viswanathan Anand is an Indian chess grandmaster and a former world chess champion. He became the first grandmaster from India in 1988, and is one of the few players to have surpassed an Elo rating of 2800, a feat he
+            first achieved in 2006. Anand is a five-time world chess champion</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 testi teamin">
+          <img src="images/Testimonials/A.jpg" alt="">
+          <h3>Magnus Carlsen</h3>
+          <h4>(Norwegian chess Grandmaster)</h4>
+          <p class="team_intro">Sven Magnus Øen Carlsen is a Norwegian chess grandmaster who is the current World Chess Champion, World Rapid Chess Champion, and World Blitz Chess Champion. Carlsen first reached the top of the FIDE world rankings in
+            2010, and trails only Garry Kasparov in time spent as the highest rated player in the world.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+<!--            Contact Us                     -->
+<section class="CU">
+
+</section>
+      <hr class="fhr">
+
+    <!--                         Footer                       -->
+    <footer id="footer">
+    <div class="row">
+      <div class="col">
+          <h5>Email:</h5>
+          <h6>get.jibliteofficial@gamil.com</h6>
+      </div>
+      <div class="col">
+          <h5>Contact NO:</h5>
+          <h6>+91-1122334455</h6>
+      </div>
+      <div class="col">
+        <a target="_blank" href="https://twitter.com/MalviyaRavi2"> <i class="socialicon fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.instagram.com/psycho_thinker11/"> <i class="socialicon fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/psychothinker11"> <i class="socialicon fab fa-facebook-f"></i></a>
+        <a href="mailto:ravindramalviya@gmail.com"> <i class="socialicon fas fa-envelope"></i></a>
+        <p>© Copyright 2021 JobLite</p>
+      </div>
+    </div>
+
+</footer>
+<script src="JS/index.js" charset="utf-8"></script>
+</body>
+
+</html>

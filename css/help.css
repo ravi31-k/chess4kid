@@ -1,0 +1,70 @@
+body {
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;
+background-color: #F6F6F6;
+font-family: "Montserrat-Black";
+}
+
+a {
+color: #2A0944;
+background-color: transparent;
+font-weight: 300;
+text-decoration: none;
+}
+hr {
+  margin: auto auto auto auto;
+  width: 20%;
+  border: dotted #CDF0EA 2px;
+  /*border: type color width*/
+  border-bottom: none;
+  margin-bottom: 1px;
+}
+
+/*                       NavBAR                  */
+.navbar {
+height: 2%;
+}
+
+.title {
+font-size: 2.0rem;
+line-height: 1;
+margin-right: 42%;
+padding-top: 1%;
+}
+
+.navtxt {
+color: white;
+font-size: 1.2rem;
+}
+.hyperImage {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+
+
+
+/*.................. Footer................. */
+
+#footer {
+  background-color: #212121;
+  color: white;
+  height: 150px;
+margin-top: 420px;
+}
+
+.socialicon {
+  color: white;
+}
+
+.fcant {
+  margin-top: 10%;
+
+}
+
+.colms {
+  padding-top: 5%;
+  padding-left: 5%;
+}

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body {
+  font-family: "Montserrat-black";
+  background-color: #3A4750;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+hr {
+  margin: auto auto auto auto;
+  width: 20%;
+  border: dotted #CDF0EA 2px;
+  /*border: type color width*/
+  border-bottom: none;
+  margin-bottom: 1px;
+}
+
+.hr2 {
+  margin: auto auto auto auto;
+  width: 10%;
+  border: dotted #F9E4C8 2px;
+  /*border: type color width*/
+  border-bottom: none;
+}
+
+#demoLogin {
+  height: auto;
+}
+
+#quotesPic {
+  height: auto;
+}
+
+                                  /*                       NavBAR                  */
+
+.navbar {
+  width: auto;
+}
+
+.title {
+  font-family: "Montserrat-Black";
+  font-size: 2.0rem;
+  line-height: 1.5;
+  margin-right: 42%;
+}
+
+.navtxt {
+  color: white;
+}
+
+.hyperImage {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+                              /*                  quote            ; */
+.quote1 {
+  font-size: 1.2rem;
+}
+
+.topQuote {
+  margin-bottom: 0%;
+}
+
+                          /*           demo login and Video        ; */
+.YouTubeVideo {
+  padding-left: 5%;
+}
+.pnblock{
+  width: 80%;
+}
+
+.regiterdemo {
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.demo {
+  background-color: #DBDBDB;
+  height: auto;
+  padding-top: 2px;
+}
+
+.demoTxt {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btnsignup {
+  margin-top: 3%;
+  margin-left: 35%;
+  width: 30%;
+}
+
+.username1 {
+  margin-top: 2%;
+}
+
+/* features */
+/* #features{
+  padding: 1% 15%;
+  background-color: #fff;
+  position: relative;
+} */
+
+                          /*                                               Advantages                                         */
+#carouselDarkVariant {
+  background-color: #DBDBDB;
+  margin: 0px auto;
+}
+
+.carousel-item {
+  padding: 1% 4%;
+}
+
+.ico {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.ico:hover {
+  color: #ff4668;
+}
+
+.box {
+  text-align: center;
+  padding: 2%;
+}
+
+                        /*                 Testimonials                             */
+#Testimonials {
+  background-color: #212121;
+  padding: 2% 3%;
+  height: auto;
+}
+
+.testi {
+  text-align: center;
+  padding: 3%;
+  color: #F6F6F6;
+}
+
+.textiname {
+  color: #FAEEE0;
+  text-align: center;
+  border: dotted #F9E4C8 2px;
+}
+
+                                /*             Team intro           ; */
+#MyTeam{
+  height: auto;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+}
+.teamin{
+  color: #212121;
+  padding: 2% 5%;
+}
+.OurTeam{
+  margin: auto;
+  margin-top: 2%;
+text-decoration: underline;
+text-shadow: 1px ;
+text-decoration-color: #212121;
+}
+
+/*           Contact US         */
+
+
+
+
+
+
+/*           Footer       */
+
+#footer{
+  margin: 4% 15%;
+  text-align:center;
+}
+.socialicon {
+  margin: 10px 10px;
+}
+.fhr{
+  width:200%;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+adf haukfgakugajkgajgaukg */
