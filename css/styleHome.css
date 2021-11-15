@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 
-body {
+html, body {
+  width: 100%;
+   height: 100%;
   font-family: "Montserrat-black";
   background-color: #3A4750;
   margin: 0;
@@ -150,6 +152,10 @@ hr {
   color: #FAEEE0;
   text-align: center;
   border: dotted #F9E4C8 2px;
+}
+.tesifoto{
+  width: 120px;
+  height: 120px;
 }
 
                                 /*             Team intro           ; */
